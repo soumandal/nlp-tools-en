@@ -1,4 +1,4 @@
-# nlp-tools
+# nlp-tools-en
 Tools for natural language processing in English.
 
 ## About
