@@ -12,6 +12,7 @@
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet as wn
+from nltk.stem import PorterStemmer
 
 def word_region(sentence, word):
 
@@ -33,3 +34,9 @@ def word_region(sentence, word):
 
 def synset_count(word):
     return len(wn.synsets(word))
+
+
+def word_to_stem_ratio(word):
+
+    stemmer = PorterStemmer()
+    return len(word)/len(stemmer.stem(word))
