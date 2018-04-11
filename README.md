@@ -8,3 +8,15 @@ The goal is to build a natural language processing library which will have some 
 ## Contributing
 
 For contributions, drop a mail specifying the problem you want to adress at soumil.mandal@gmail.com.
+
+## Modules
+
+The modules available under the library are
+
+### preprocess tools
+
+### core tools
+
+### secondary tools
+
+### sentiment tools
