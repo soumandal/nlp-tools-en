@@ -11,6 +11,7 @@
 # Step 05 - Else return 0, end
 
 from nltk.tokenize import word_tokenize
+from nltk.corpus import wordnet as wn
 
 def word_region(sentence, word):
 
@@ -28,3 +29,7 @@ def word_region(sentence, word):
         return 3
     else:
     	return 0
+
+
+def synset_count(word):
+    return len(wn.synsets(word))
